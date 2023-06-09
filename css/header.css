@@ -1,0 +1,280 @@
+header{
+    width: 100%;
+}
+.header__container{
+    width: 1110px;
+    height: 750px;
+    margin: 0 auto;
+}
+.header__navigation{
+    position: fixed;
+    display: block;
+    background-color: #fff;
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    overflow: hidden;
+} 
+.navbar__list{
+    width: 338px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 108px;
+    margin-right: 563px;
+}
+.navbar__item{
+    margin-bottom: 10px;
+}
+.navbar__link{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #7E7F86;
+    display: inline-block;
+    text-decoration: none;
+}
+.navbar__link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+}
+.navbar__link:hover{
+    color: #25202F;
+    width: 100%;
+}
+.header__menu img{
+    width: 110px;
+    height: 110px;
+    margin-right: 50px;
+    margin-top: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.noneactive{
+    display: none;
+}
+.about__container{
+    width:1200px;
+    height: 632px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about__title{
+    width: 360px;
+    height: 272px;
+}
+.about__title--heading{
+    width: 357px;
+    height: 110px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    color: #666666;
+}
+.about__title--heading--span{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 120%;
+    color: #25202F;
+}
+.about--title--passage{
+    width: 255px;
+    height: 32px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #25202F;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+.about--title--btn{
+    width: 200px;
+    height: 60px;
+    border-radius: 35px;
+    border: 1px solid #8643DC;
+    background-color: #8643DC;
+    color: #fff;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.about--title--btn:hover{
+    color: #8643DC;
+    background-color: #fff;
+    border: 1px solid #8643DC;
+}
+.about__bg--img img{
+    margin-top: 100px;
+    margin-right: 100px;
+}
+@media only screen and (max-width:900px){
+    .header__container{
+        width: auto;
+        margin: 0;
+    }
+    .header__navigation{
+        width:100%;
+        display: flex;
+        gap: 25px;  
+        padding: 15px 55px; 
+        position: static;
+    }
+    .noneactive{
+        display:inline-block;
+    }
+    .noneactive {
+        margin-top: 20px; 
+        margin-right: -50px;
+    }
+    .about__container{
+        width: 100%;
+        display: flex;
+        /* flex-direction: column; */
+        /* align-items: flex-start; */
+        /* justify-content: center; */
+        margin-top: 50px;
+        padding: 0 70px;
+    } 
+    .about__title{
+        width: 280px;
+        height: 242px;
+        padding: 10px 30px;
+        padding-left: 30px;
+    }
+    .about__title--heading{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 100%;
+        color: #666666;
+    }
+    .about__title--heading--span{
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 100%;
+        color: #25202F;
+    }
+    .about--title--passage{
+        font-size: 18px;
+        line-height: 28px;
+        color: #25202F;
+        margin-top: -20px;
+        margin-bottom: 30px;
+    }
+    .about--title--btn{
+        width: 140px;
+        height: 40px;
+        border-radius: 35px;
+        border: 1px solid #8643DC;
+        background-color: #8643DC;
+        color: #fff;
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .about__bg--img img{
+        width:300px;
+        height:310px;
+    }
+    .about__bg--img{
+        padding-left: 10px;
+    }
+}
+@media only screen and (max-width:700px){
+    .header__navigation{
+        margin: 0 auto;
+        display: flex;
+        gap: 15px;  
+        padding: 5px 55px; 
+        position: static;
+    }
+    .navbar__list{
+        display: none;
+    }
+    .header__menu img{
+        width: 150px;
+        height:120px;
+    }
+    .about__container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 50px;
+    } 
+    .about__title{
+        width: 280px;
+        height: 242px;
+        padding: 10px 30px;
+        padding-left: 30px;
+    }
+    .about__title--heading{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 100%;
+        color: #666666;
+    }
+    .about__title--heading--span{
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 100%;
+        color: #25202F;
+    }
+    .about--title--passage{
+        font-size: 18px;
+        line-height: 28px;
+        color: #25202F;
+        margin-top: -20px;
+        margin-bottom: 30px;
+    }
+    .about--title--btn{
+        width: 140px;
+        height: 40px;
+        border-radius: 35px;
+        border: 1px solid #8643DC;
+        background-color: #8643DC;
+        color: #fff;
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .about__bg--img img{
+        width:300px;
+        height:310px;
+    }
+    .about__bg--img{
+        padding-left: 10px;
+    }
+}

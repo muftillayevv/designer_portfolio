@@ -1,0 +1,42 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../fonts/Red\ Hat\ Display/red-hat-display-v14-latin-regular') format('woff2');
+}
+@font-face {
+    font-display: swap; 
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    src: url('./../fonts/Red\ Hat\ Display/red-hat-display-v14-latin-500') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 600;
+    src: url('./../fonts/Red\ Hat\ Display/red-hat-display-v14-latin-600') format('woff2'); 
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./../fonts/Red\ Hat\ Display/red-hat-display-v14-latin-700') format('woff2'); 
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 800;
+    src: url('./../fonts/Red\ Hat\ Display/red-hat-display-v14-latin-800') format('woff2');
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    src: url('./../fonts/Red\ Hat\ Display/red-hat-display-v14-latin-900') format('woff2');
+}

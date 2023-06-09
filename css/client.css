@@ -1,0 +1,185 @@
+.client{
+    width: 100%;
+    background-color: #f3eafe9f;;
+}
+.client__container{
+    width: 1110px;
+    height: 361px;
+    margin: 0 auto;
+}
+.client__passage{
+    width: 68px;
+    height: 24px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;    
+    color: #8643DC;
+    cursor: pointer;
+}
+.client__heading{
+    width: 200px;
+    height: 97px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #25202F;
+    margin-top: 27px;
+    margin-bottom: 50px;
+}
+.client__box{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.client__cardbox{
+    width: 170px;
+    height: 170px;
+    padding: 33px 60px;
+    cursor: pointer;
+}
+
+.zeplin{
+    border: 1px solid #fce6b7;
+    background-color: #ffeec929;
+    border-radius: 6px;
+}
+.zeplin__text{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-top: 25px;
+}
+.zeplin:hover img{
+    transform: scale(1.3);
+    opacity:1;
+}
+.zeplin:hover .zeplin__text{
+    transform: scale(1.3);
+    opacity:1;
+}
+.slack{
+    border: 1px solid #f7cae6;
+    background-color: #FFFAFD;
+    border-radius: 6px;
+}
+.slack__text{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-top: 25px;
+}
+.slack:hover img{
+    transform: scale(1.3);
+    opacity:1;
+}
+.slack:hover .slack__text{
+    transform: scale(1.3);
+    opacity:1;
+}
+.medium{
+    border: 1px solid #bcf698;
+    background-color: #ddf8dc;
+    border-radius: 6px;
+}
+.medium:hover img{
+    transform: scale(1.3);
+    opacity:1;
+}
+.medium:hover .medium__text{
+    transform: scale(1.3);
+    opacity:1;
+}
+.medium__text{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-top: 25px;
+}
+.microsoft{
+    border: 1px solid #b1e1ff;
+    background-color: rgba(142, 214, 245, 0.241);
+    border-radius: 6px;
+    text-align: center;
+}
+.microsoft:hover img{
+    transform: scale(1.3);
+    opacity:1;
+}
+.microsoft:hover .microsoft__text{
+    transform: scale(1.3);
+    opacity:1;
+}
+.microsoft__text{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-top: 25px;
+    margin-left: -10px;
+}
+.shopify{
+    border: 1px solid #b1fc83;
+    background-color: #e0ffcc;
+    border-radius: 6px;
+}
+.shopify:hover img{
+    transform: scale(1.3);
+    opacity:1;
+}
+.shopify:hover .shopify__text{
+    transform: scale(1.3);
+    opacity:1;
+}
+.shopify__text{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-top: 25px;
+}
+@media only screen and (max-width:900px){
+    .client__container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 250px;
+    }
+    .client__passage{
+        margin: 0 auto;
+    }
+    .client__heading{
+        margin: 0 auto;
+    }
+    .client__box{
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
